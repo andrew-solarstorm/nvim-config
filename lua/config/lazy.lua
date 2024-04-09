@@ -18,6 +18,7 @@ require("lazy").setup({
     -- { import = "plugins.lsb" },
     --
 
+    { import = "plugins.neovim-tree" },
     { import = "plugins.extras.lang.flutter" },
     { import = "plugins.colorscheme" },
     { import = "plugins.editor" },
