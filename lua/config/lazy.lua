@@ -25,6 +25,7 @@ require("lazy").setup({
     { import = "plugins.extras.lang.python" },
     { import = "plugins.extras.lang.java" },
     { import = "plugins.gitblame" },
+    { import = "plugins.obsidian" },
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
