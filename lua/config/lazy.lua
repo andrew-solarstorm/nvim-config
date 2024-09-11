@@ -21,11 +21,11 @@ require("lazy").setup({
     { import = "plugins.neovim-tree" },
     { import = "plugins.extras.lang.flutter" },
     { import = "plugins.colorscheme" },
-    { import = "plugins.editor" },
     { import = "plugins.extras.lang.python" },
     { import = "plugins.extras.lang.java" },
     { import = "plugins.gitblame" },
-    { import = "plugins.obsidian" },
+    { import = "plugins.autosave" },
+
   },
   defaults = {
     -- By default, only LazyVim plugins will be lazy-loaded. Your custom plugins will load during startup.
@@ -36,7 +36,7 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "tokyonight", "habamax" } },
+  -- install = { colorscheme = { "tokyonight", "habamax" } },
   checker = { enabled = true }, -- automatically check for plugin updates
   performance = {
     rtp = {
