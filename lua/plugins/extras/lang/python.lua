@@ -24,7 +24,9 @@ return {
                 diagnosticSeverityOverrides = {
                   reportUnusedVariable = "warning", -- or anything
                 },
-                typeCheckingMode = "off",
+                typeCheckingMode = "standard",
+
+                -- typeCheckingMode = "off",
               },
             },
           },
