@@ -31,11 +31,39 @@ return {
           },
         },
       })
-      -- vim.cmd("colorscheme github_dark_default")
-      vim.cmd("colorscheme github_dark_tritanopia")
+
+      vim.cmd("colorscheme github_dark_default")
+      -- vim.cmd("colorscheme github_dark_dimmed")
+      -- vim.cmd("colorscheme github_dark_tritanopia")
       -- vim.cmd("colorscheme github_dark_high_contrast")
     end,
   },
+
+  -- {
+  --   "rebelot/kanagawa.nvim",
+  --   lazy = false,
+  --   priority = 1000,
+  --
+  --   config = function()
+  --     -- vim.cmd("colorscheme kanagawa")
+  --
+  --     -- vim.cmd("colorscheme kanagawa-wave")
+  --
+  --     -- vim.cmd("colorscheme kanagawa-dragon")
+  --     --
+  --     -- vim.cmd("colorscheme kanagawa-lotus")
+  --
+  --     -- require("kanagawa").setup({
+  --     --   vim.cmd("colorscheme kanagawa"),
+  --     --
+  --     --   vim.cmd("colorscheme kanagawa"),
+  --     --
+  --     --   vim.cmd("colorscheme kanagawa"),
+  --     --
+  --     --   vim.cmd("colorscheme kanagawa"),
+  --     -- })
+  --   end,
+  -- },
   -- {
   --   "folke/tokyonight.nvim",
   --   lazy = true,
