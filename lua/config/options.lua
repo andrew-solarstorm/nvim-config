@@ -4,3 +4,6 @@
 --
 vim.g.autoformat = false
 vim.g.lazyvim_python_lsp = "pyright"
+vim.opt.swapfile = false
+vim.opt.termguicolors = true
+
